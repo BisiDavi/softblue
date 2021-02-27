@@ -1,0 +1,139 @@
+@media (max-width: 768px) {
+  .hero-animation {
+    display: none;
+  }
+  .hero-text h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .hero-text .d-flex {
+    flex-direction: column;
+  }
+  nav .navbar-brand img.site-logo {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+
+  .hero-text {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-text .divider.divider-pink {
+    margin: auto;
+  }
+
+  .hero-jumbotron .hero-text p {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .brand-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px;
+    margin: 0px;
+    height: 150px;
+    width: 100%;
+  }
+
+  .sponsorsbrand img {
+    height: 30px;
+    margin: 5px auto;
+  }
+
+  .hero-content .sponsorsbrand {
+    bottom: 70px;
+    width: 100%;
+    padding: 0px;
+    height: 150px;
+    padding: 20px 0px;
+  }
+
+  .brand-content {
+    flex-direction: column;
+  }
+
+  .sponsorsbrand .brand-content p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+  }
+
+  .our-services .col-lg-4 {
+    text-align: center;
+  }
+  .our-services .col-lg-4 p {
+    max-width: 100%;
+    color: #88949e;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .owl-item span.text {
+    width: 100%;
+    top: 0px;
+    padding: 90px 35px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .owl-item span.text q {
+    font-size: 18px;
+  }
+
+  .owl-dots span {
+    margin: 5px;
+    padding: 0px;
+  }
+
+  .build-content .text-content h1 {
+    font-size: 2em;
+  }
+
+  .build-content .text-content {
+    position: relative;
+    width: 100% !important;
+    padding: 0px 20px;
+  }
+
+  .site-links .col-lg-3 {
+    text-align: center;
+  }
+
+  .site-links .col-lg-6 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  footer .site-links form button {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  footer .site-links form {
+    padding: 0px 30px;
+    flex-direction: column;
+  }
+
+  footer .footer-divider {
+    margin: 30px;
+  }
+
+  footer .our-address {
+    margin-top: 20px;
+  }
+
+  .site-address.google-map.container-fluid {
+    display: none;
+  }
+  .site-links.container {
+    margin-bottom: 0px !important;
+  }
+}

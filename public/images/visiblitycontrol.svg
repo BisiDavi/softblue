@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="414" viewBox="0 0 500 414"
+                      preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%">
+                      <defs>
+                        <clipPath id="animationMask_d3ytF6LiBd">
+                          <rect width="500" height="414" x="0" y="0"></rect>
+                        </clipPath>
+                        <filter id="BJLfGxitYW" filterUnits="objectBoundingBox" x="-100%" y="-100%" width="400%"
+                          height="400%">
+                          <feGaussianBlur in="SourceAlpha" result="drop_shadow_1" stdDeviation="17.75"></feGaussianBlur>
+                          <feOffset dx="2.4492935982947065e-15" dy="40" in="drop_shadow_1" result="drop_shadow_2">
+                          </feOffset>
+                          <feFlood flood-color="#000000" flood-opacity="0.15" result="drop_shadow_3"></feFlood>
+                          <feComposite in="drop_shadow_3" in2="drop_shadow_2" operator="in" result="drop_shadow_4">
+                          </feComposite>
+                          <feMerge>
+                            <feMergeNode></feMergeNode>
+                            <feMergeNode in="SourceGraphic"></feMergeNode>
+                          </feMerge>
+                        </filter>
+                        <linearGradient id="gr_RhSbvogoGQ" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="39.123"
+                          y1="49.683" x2="-1.809" y2="4.735">
+                          <stop offset="0%" stop-color="rgb(234,20,123)"></stop>
+                          <stop offset="50%" stop-color="rgb(124,105,164)"></stop>
+                          <stop offset="100%" stop-color="rgb(15,189,206)"></stop>
+                        </linearGradient>
+                        <linearGradient id="gr_wyglNwfU40" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="39.123"
+                          y1="49.683" x2="-1.809" y2="4.735">
+                          <stop offset="0%" stop-color="rgb(234,20,123)"></stop>
+                          <stop offset="50%" stop-color="rgb(124,105,164)"></stop>
+                          <stop offset="100%" stop-color="rgb(15,189,206)"></stop>
+                        </linearGradient>
+                        <filter id="DwTshiFfVU" filterUnits="objectBoundingBox" x="-100%" y="-100%" width="400%"
+                          height="400%">
+                          <feGaussianBlur in="SourceAlpha" result="drop_shadow_1" stdDeviation="17.75"></feGaussianBlur>
+                          <feOffset dx="2.4492935982947065e-15" dy="40" in="drop_shadow_1" result="drop_shadow_2">
+                          </feOffset>
+                          <feFlood flood-color="#000000" flood-opacity="0.15" result="drop_shadow_3"></feFlood>
+                          <feComposite in="drop_shadow_3" in2="drop_shadow_2" operator="in" result="drop_shadow_4">
+                          </feComposite>
+                          <feMerge>
+                            <feMergeNode></feMergeNode>
+                            <feMergeNode in="SourceGraphic"></feMergeNode>
+                          </feMerge>
+                        </filter>
+                        <linearGradient id="gr_t2Iyi1ZfuH" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="26.309"
+                          y1="22.777" x2="-3.55" y2="-3.761">
+                          <stop offset="0%" stop-color="rgb(234,20,123)"></stop>
+                          <stop offset="50%" stop-color="rgb(124,105,164)"></stop>
+                          <stop offset="100%" stop-color="rgb(15,189,206)"></stop>
+                        </linearGradient>
+                        <filter id="EtP6gq2DY0" filterUnits="objectBoundingBox" x="-100%" y="-100%" width="400%"
+                          height="400%">
+                          <feGaussianBlur in="SourceAlpha" result="drop_shadow_1" stdDeviation="32.5"></feGaussianBlur>
+                          <feOffset dx="2.02421869431066e-15" dy="33.058" in="drop_shadow_1" result="drop_shadow_2">
+                          </feOffset>
+                          <feFlood flood-color="#000000" flood-opacity="0.15" result="drop_shadow_3"></feFlood>
+                          <feComposite in="drop_shadow_3" in2="drop_shadow_2" operator="in" result="drop_shadow_4">
+                          </feComposite>
+                          <feMerge>
+                            <feMergeNode></feMergeNode>
+                            <feMergeNode in="SourceGraphic"></feMergeNode>
+                          </feMerge>
+                        </filter>
+                        <linearGradient id="gr_XOxNV5YaEJ" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="-15.661"
+                          y1="163.499" x2="183.265" y2="-7.194">
+                          <stop offset="0%" stop-color="rgb(213,21,113)"></stop>
+                          <stop offset="50%" stop-color="rgb(126,123,179)"></stop>
+                          <stop offset="100%" stop-color="rgb(39,225,244)"></stop>
+                        </linearGradient>
+                      </defs>
+                      <g clip-path="url(#animationMask_d3ytF6LiBd)">
+                        <g transform="matrix(1,0,0,1,0,0)" opacity="1">
+                          <rect width="500" height="414" fill="#ffffff"></rect>
+                        </g>
+                        <g filter="url(#EtP6gq2DY0)" transform="matrix(1,0,0,1,119.616,101.215)" opacity="1"
+                          style="user-select: none">
+                          <g opacity="1" transform="matrix(0.82645,0,0,0.82645,0,0)">
+                            <path fill="rgb(255,255,255)" fill-opacity="1"
+                              d="M0 0 M315.53,17 C315.53,17 315.53,239 315.53,239 C315.53,248.3823 307.91229999999996,256 298.53,256 C298.53,256 17,256 17,256 C7.617700000000001,256 0,248.3823 0,239 C0,239 0,17 0,17 C0,7.617700000000001 7.617700000000001,0 17,0 C17,0 298.53,0 298.53,0 C307.91229999999996,0 315.53,7.617700000000001 315.53,17z">
+                            </path>
+                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                              stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3"
+                              d="M0 0 M315.53,17 C315.53,17 315.53,239 315.53,239 C315.53,248.3823 307.91229999999996,256 298.53,256 C298.53,256 17,256 17,256 C7.617700000000001,256 0,248.3823 0,239 C0,239 0,17 0,17 C0,7.617700000000001 7.617700000000001,0 17,0 C17,0 298.53,0 298.53,0 C307.91229999999996,0 315.53,7.617700000000001 315.53,17z">
+                            </path>
+                          </g>
+                        </g>
+                        <g transform="matrix(1,0,0,1,140.277,140.417)" opacity="1"
+                          style="user-select: none; display: block">
+                          <g opacity="1" transform="matrix(0.82645,0,0,0.82645,0,0)">
+                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                              style="display: block" stroke="rgb(231,236,240)" stroke-opacity="1" stroke-width="1"
+                              d="M0 0 M0,162 C0,162 267,162 267,162M0 0 M0,86 C0,86 267,86 267,86M0 0 M0,124 C0,124 267,124 267,124M0 0 M0,48 C0,48 267,48 267,48M0 0 M0,10 C0,10 267,10 267,10M0 0 M248,1 C248,1 248,162 248,162M0 0 M172,1 C172,1 172,162 172,162M0 0 M96,1 C96,1 96,162 96,162M0 0 M210,1 C210,1 210,162 210,162M0 0 M134,1 C134,1 134,162 134,162M0 0 M58,1 C58,1 58,162 58,162M0 0 M20,1 C20,1 20,162 20,162">
+                            </path>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,161)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,85)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,199)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,123)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,47)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,9)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,246,0)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,170,0)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,94,0)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,208,0)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,132,0)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,56,0)"></g>
+                            <g opacity="1" transform="matrix(1,0,0,1,18,0)"></g>
+                          </g>
+                        </g>
+                        <g transform="matrix(1,0,0,1,178.50900000000001,137.578)" opacity="1"
+                          style="user-select: none; display: block">
+                          <g opacity="1" transform="matrix(0.82645,0,0,0.82645,0,0)">
+                            <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
+                              stroke="url(#gr_XOxNV5YaEJ)" style="display: block" stroke-opacity="1" stroke-width="5"
+                              d="M0 0 M-32,140 C-32,140 -21,84 33,119 C59,137 79,133 95,119 C103,112 110,103 116,93 C125,79 133,63 140,50 C157,20 171,10 181,7 C190,5 196,9 198,11 C199,12 200,13 200,13">
+                            </path>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,30.2)"></g>
+                          </g>
+                        </g>
+                        <g filter="url(#DwTshiFfVU)" style="user-select: none; display: block"
+                          transform="matrix(0.6,0,0,0.6,92.295,239.957)" opacity="1">
+                          <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                            <path fill="rgb(255,255,255)" fill-opacity="0.85"
+                              d="M0 0 M85,17 C85,17 85,68 85,68 C85,77.3823 77.3823,85 68,85 C68,85 17,85 17,85 C7.617700000000001,85 0,77.3823 0,68 C0,68 0,17 0,17 C0,7.617700000000001 7.617700000000001,0 17,0 C17,0 68,0 68,0 C77.3823,0 85,7.617700000000001 85,17z"
+                              style="display: block"></path>
+                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                              style="display: block" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3"
+                              d="M0 0 M85,17 C85,17 85,68 85,68 C85,77.3823 77.3823,85 68,85 C68,85 17,85 17,85 C7.617700000000001,85 0,77.3823 0,68 C0,68 0,17 0,17 C0,7.617700000000001 7.617700000000001,0 17,0 C17,0 68,0 68,0 C77.3823,0 85,7.617700000000001 85,17z">
+                            </path>
+                          </g>
+                        </g>
+                        <g transform="matrix(1.000002,0,0,1.000002,107.070978552,255.952980992)" opacity="1"
+                          style="user-select: none; display: block">
+                          <g opacity="1" transform="matrix(0.82645,0,0,0.82645,0,0)">
+                            <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
+                              stroke="url(#gr_t2Iyi1ZfuH)" style="display: block" stroke-opacity="1" stroke-width="3"
+                              d="M0 0 M12.98,3.91 C6.5600000000000005,-3.5 1.6,1.6199999999999999 0.76,3.15 C-0.77,5.97 0.1499999999999999,10.25 2.29,12.31 C2.29,12.31 12.98,23 12.98,23 C12.98,23 23.67,12.31 23.67,12.31 C25.810000000000002,10.25 26.720000000000002,5.97 25.19,3.15 C24.35,1.6199999999999999 19.08,-3.5 12.98,3.91z">
+                            </path>
+                          </g>
+                        </g>
+                        <g filter="url(#BJLfGxitYW)" style="user-select: none; display: block"
+                          transform="matrix(0.96,0,0,0.96,77.94500000000001,134.155)" opacity="1">
+                          <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                            <path fill="rgb(255,255,255)" fill-opacity="0.85"
+                              d="M0 0 M85,17 C85,17 85,68 85,68 C85,77.3823 77.3823,85 68,85 C68,85 17,85 17,85 C7.617700000000001,85 0,77.3823 0,68 C0,68 0,17 0,17 C0,7.617700000000001 7.617700000000001,0 17,0 C17,0 68,0 68,0 C77.3823,0 85,7.617700000000001 85,17z"
+                              style="display: block"></path>
+                            <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                              style="display: block" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="3"
+                              d="M0 0 M85,17 C85,17 85,68 85,68 C85,77.3823 77.3823,85 68,85 C68,85 17,85 17,85 C7.617700000000001,85 0,77.3823 0,68 C0,68 0,17 0,17 C0,7.617700000000001 7.617700000000001,0 17,0 C17,0 68,0 68,0 C77.3823,0 85,7.617700000000001 85,17z">
+                            </path>
+                          </g>
+                        </g>
+                        <g transform="matrix(1.0999967999999998,0,0,1.0999967999999998,101.00865159680001,148.262188288)"
+                          opacity="1" style="user-select: none; display: block">
+                          <g opacity="1" transform="matrix(0.82645,0,0,0.82645,0,0)">
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
+                                stroke="url(#gr_RhSbvogoGQ)" style="display: block" stroke-opacity="1" stroke-width="6"
+                                d="M0 0 M37,10 C37,10 39,12 39,12M0 0 M16,2 C16,2 24,2 24,2"></path>
+                              <g opacity="1" transform="matrix(1,0,0,1,37,8.82)"></g>
+                              <g opacity="1" transform="matrix(1,0,0,1,15.57,0)"></g>
+                            </g>
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"
+                                stroke="url(#gr_wyglNwfU40)" style="display: block" stroke-opacity="1" stroke-width="4"
+                                d="M0 0 M19.5,10.8 C30.26205,10.8 39,19.537950000000002 39,30.3 C39,41.06205 30.26205,49.8 19.5,49.8 C8.737950000000001,49.8 0,41.06205 0,30.3 C0,19.537950000000002 8.737950000000001,10.8 19.5,10.8z">
+                              </path>
+                            </g>
+                          </g>
+                        </g>
+                        <g transform="matrix(1.0999967999999998,-2.694215120384662e-16,2.694215120384662e-16,1.0999967999999998,113.7356145728,165.3715385152)"
+                          opacity="1" style="user-select: none; display: block">
+                          <g opacity="1" transform="matrix(0.82645,0,0,0.82645,0,0)">
+                            <path fill="rgb(139,93,159)" fill-opacity="1"
+                              d="M0 0 M9.51,8.26 C9.879999999999999,9.12 10.08,10.040000000000001 10.07,10.97 C10.120000000000001,13.49 8.22,15.640000000000002 5.65,16.01 C4.220000000000001,16.180000000000003 2.7800000000000002,15.75 1.7,14.83 C0.6299999999999999,13.91 0,12.58 0,11.19 C0,11.19 0,10.98 0,10.98 C0,10.05 0.19000000000000006,9.129999999999999 0.56,8.28 C0.56,8.28 3.92,0.69 3.92,0.69 C4.1,0.26999999999999996 4.529999999999999,0 5.01,0 C5.4799999999999995,0 5.91,0.26999999999999996 6.09,0.69 C6.09,0.69 9.51,8.26 9.51,8.26z"
+                              style="display: block"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
