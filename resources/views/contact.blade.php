@@ -6,35 +6,35 @@
 
 @section('page-banner')
   <div class="container-fluid">
-              <div class="hero-jumbotron row">
-                <div class="hero-text col-lg-8 col-md-6 col-sm-12">
-                  <h1 class="jumbo-text">
-                    START YOUR PROJECT
-                    <br />
-                    WITHIN 10 DAYS
-                  </h1>
-                  <span class="divider divider-pink"></span>
-                  <p>
-                    Assemble a dedicated team that fits your project's needs, on
-                    demand.
-                  </p>
-                </div>
-                <div class="hero-animation col-lg-4 col-md-6 col-sm-12">
-                  <span class="animationsvg contact-page">
-                    <img
-                      src="/images/contact-us.jpg"
-                      alt="contact us at softblue"
-                    />
-                  </span>
-                </div>
-              </div>
-            </div>
+    <div class="hero-jumbotron row">
+      <div class="hero-text col-lg-8 col-md-6 col-sm-12 mt-5">
+        <h1 class="jumbo-text mb-5">
+          START YOUR PROJECT
+          <br />
+          WITHIN 10 DAYS
+        </h1>
+        <span class="divider divider-pink"></span>
+        <p>
+          Assemble a dedicated team that fits your project's needs, on
+          demand.
+        </p>
+      </div>
+      <div class="hero-animation col-lg-4 col-md-6 col-sm-12">
+        <span class="animationsvg contact-page">
+          <img
+            src="/images/contact-us.jpg"
+            alt="contact us at softblue"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
 @endsection
 
 @section('content')
   <main class="row bg-white">
-      <section class="contact-form container py-5">
-        <div class="row py-5">
+      <section class="contact-form container">
+        <div class="row">
           <div class="col-lg-12">
             <h1 class="jumbo-text text-center">CONTACT US</h1>
             <p class="text-center mb-2 w-50 mx-auto d-flex">

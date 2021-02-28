@@ -221,6 +221,6 @@
         </div>
       </div>
     </section>
-    @include('partials/hireus.blade.php')
+    @include('partials/hireus')
   </main>
 @endsection

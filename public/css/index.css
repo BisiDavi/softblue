@@ -58,6 +58,10 @@ section.hero {
   width: 100%;
 }
 
+.hero-text.position-relative {
+    z-index: 100;
+}
+
 .mainbanner {
   position: relative;
   height: 100vh;
