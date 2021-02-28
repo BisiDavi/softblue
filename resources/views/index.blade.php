@@ -20,8 +20,8 @@
         </p>
       </div>
       <div class="hero-animation">
-        <span class="animationsvg'>
-            <img src=" ./images/launch.png) }}" alt="launch with us" />
+        <span class="animationsvg">
+            <img src="{{ asset('/images/launch.png') }}" alt="launch with us" />
         </span>
       </div>
     </div>
