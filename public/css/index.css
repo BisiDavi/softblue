@@ -142,8 +142,11 @@ section.hero {
   z-index: 1000;
 }
 
+.service-page.hero-container {
+  padding-left: 30px;
+}
 .hero-container {
-  padding-left: 130px !important;
+  padding-left: 130px;
   position: relative;
 }
 
@@ -178,6 +181,21 @@ section.hero {
   animation-iteration-count: 1;
   margin-bottom: 15px;
   color: black;
+}
+.service-page .animationsvg img {
+    height: 100%;
+    width: 700px;
+    margin-top: -70px;
+    margin-right: 0px;
+    position: absolute;
+    right: 0px;
+}
+main.servicepage-main .container-fluid img {
+    width: 100%;
+    height: 250px;
+}
+.service-page .hero-jumbotron .hero-text p {
+  width: 80%
 }
 
 .hero-jumbotron .hero-text p {
@@ -670,6 +688,18 @@ footer form button.btn {
 
 #company .divider {
   margin: unset !important;
+}
+
+div#menuTab ul li a {
+  color: black;
+}
+
+.animation-wrapper img{
+  width:100%;
+}
+
+.milestone-chart-animation img {
+    width: 100%;
 }
 
 #company button.btn {

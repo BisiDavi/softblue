@@ -39,12 +39,12 @@
 
 @section('content')
   <main class="row bg-white">
-    <section class="about-page pt-5">
-      <div class="row">
+    <section class="about-page pt-2">
+      <div class="row w-100">
         <div class="tab-content">
           <div class="tab-pane active" id="company" role="tabpanel" aria-labelledby="company-tab">
-            <section class="partners-section pt-5 ml-5 pl-5 d-flex col-lg-12">
-              <div class="partner-text-content d-flex flex-column col-lg-5">
+            <section class="partners-section mb-3 mx-auto d-flex col-lg-12 px-5">
+              <div class="partner-text-content d-flex flex-column col-lg-7">
                 <h1 class="my-2 jumbo-text">
                   GLOBALLY DIVERSE <br />
                   PERSPECTIVE
@@ -58,20 +58,22 @@
                   helps us to craft a fit-for-purpose solution regardless of
                   your target market.
                 </p>
+                <a class="text-decoration-none" href="/about#client">
                 <button class="btn btn-blue my-2">OUR CLIENTS</button>
+                </a>
               </div>
-              <div class="col-lg-7">
-                <div class="animation-wrapper">
-                  <img src={{ asset('images/outreach.svg') }} />
+              <div class="col-lg-5">
+                <div class="animation-wrapper d-flex justify-content-end">
+                  <img src={{ asset('images/worldmap.jpg') }} />
                 </div>
               </div>
             </section>
             <section class="milestone-section container-fluid">
-              <div class="container">
+              <div class="container-fluid px-5">
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="milestone-chart-animation">
-                      <img src={{ asset('images/milestone.svg') }} />
+                      <img src={{ asset('images/tracker.jpg') }} />
                     </div>
                   </div>
                   <div class="col-lg-6 d-flex flex-column mt-4 pt-4">
@@ -93,8 +95,8 @@
                 </div>
               </div>
             </section>
-            <section class="vc-section container py-5">
-              <div class="row">
+            <section class="vc-section container-fluid p-5">
+              <div class="row px-3">
                 <div class="col-lg-6 d-flex flex-column">
                   <h1 class="my-2 jumbo-text">VISIBILITY AND CONTROL</h1>
                   <span class="divider divider-pink mx-auto"></span>

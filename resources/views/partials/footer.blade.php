@@ -5,7 +5,7 @@
         <h5>LEARN MORE</h5>
         <ul class="footer-link">
           <li><a href="{{ url('/services') }}">Services</a></li>
-          <li><a href="#showcase">Clients</a></li>
+          <li><a href="{{ url('/about#client') }}">Clients</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-3 col-xl-3">
@@ -19,13 +19,14 @@
         <h5>CONTACT US</h5>
         <ul class="footer-link">
           <li>
-            <b>Phone :</b>
+            {{-- <b>Phone :</b> --}}
             <span class="d-flex flex-column">
-              <a href="tel:+234-803-059-1180">+(234)-803-059-1180</a> <br />
-               <a href="tel:+234-706-967-1225"> +(234)-706-967-1225</a></span>
+              <a href="tel:+234-803-059-1180">+(234)-803-059-1180</a>
+              <a href="tel:+234-706-967-1225"> +(234)-706-967-1225</a></span>
           </li>
           <li>
-            <b>Email address:</b><a href="mailto:hello@softblue.com.ng"> hello@softblue.com.ng</a>
+            {{-- <b>Email address:</b> --}}
+            <a href="mailto:hello@softblue.com.ng"> hello@softblue.com.ng</a>
           </li>
         </ul>
       </div>
@@ -37,7 +38,7 @@
     <div class="footer-divider"></div>
     <div class="row site-location justify-content-between mb-4 align-items-center">
       <div class="col-lg-3 h-50">
-        <img src="{{ asset('images/softblue_logo_white.png')}}" class="footerlogo" alt="softblue logo" />
+        <img src="{{ asset('images/softblue_logo_white.png') }}" class="footerlogo" alt="softblue logo" />
       </div>
       <div class="col-lg-3 our-address">
         <h5>Office Address:</h5>
