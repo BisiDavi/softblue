@@ -2,6 +2,14 @@
 
 use Illuminate\Support\Str;
 
+    $url = getenv('JAWSDB_URL');
+    $dbparts = parse_url($url);
+    
+    $hostname = $dbparts['host'];
+    $username = $dbparts['user'];
+    $password = $dbparts['pass'];
+    $database = ltrim($dbparts['path'],'/');
+
 return [
 
     /*
@@ -16,6 +24,9 @@ return [
     */
 
     'default' => env('DB_CONNECTION', 'mysql'),
+
+    // defined by me
+    
 
     /*
     |--------------------------------------------------------------------------
