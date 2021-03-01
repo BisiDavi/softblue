@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.pages')
 
 @section('title')
   Software Design & Development powered with AI

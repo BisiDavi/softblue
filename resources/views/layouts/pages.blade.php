@@ -24,6 +24,7 @@
 
   <link rel="stylesheet" href="{{ asset('css/index.css') }}" />
   <link rel="stylesheet" href="{{ asset('css/index.mediaquery.css') }}" />
+  @yield('cssLink')
 </head>
 
 <body class="container-fluid indexpage">

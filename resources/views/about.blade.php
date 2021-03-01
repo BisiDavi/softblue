@@ -1,17 +1,21 @@
-@extends('layout')
+@extends('layouts.about-layout')
 
 @section('title')
   About us
+@endsection
+
+@section('cssLink')
+  <link rel="stylesheet" href="{{ asset('css/about.css') }}" />
 @endsection
 
 @section('page-banner')
   <div class="container">
     <div class="hero-jumbotron row">
       <div class="hero-text col-lg-8 col-md-8 col-sm-12 mx-auto d-flex flex-column">
-        <h1 class="text-center">BEAUTIFULLY ENGINEERED PRODUCTS</h1>
-        <h1 class="text-center">BUILT TO PERFORM</h1>
+        <h1 class="text-center text-white">BEAUTIFULLY ENGINEERED PRODUCTS</h1>
+        <h1 class="text-center text-white">BUILT TO PERFORM</h1>
         <span class="divider divider-pink mx-auto"></span>
-        <p class="text-center mx-auto">
+        <p class="text-center mx-auto text-white">
           Our partnership model ensures that we help amplify your
           visions and deliver on our promise of success..
         </p>
@@ -59,7 +63,7 @@
                   your target market.
                 </p>
                 <a class="text-decoration-none" href="/about#client">
-                <button class="btn btn-blue my-2">OUR CLIENTS</button>
+                  <button class="btn btn-blue my-2">OUR CLIENTS</button>
                 </a>
               </div>
               <div class="col-lg-5">

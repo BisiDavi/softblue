@@ -222,6 +222,9 @@ main.servicepage-main .container-fluid img {
   height: 100vh;
 }
 
+.hero-content #menuTab.sponsorsbrand.about {
+  background: black;
+}
 .hero-content .sponsorsbrand {
   position: absolute;
   z-index: 30;
@@ -692,7 +695,7 @@ footer form button.btn {
 }
 
 div#menuTab ul li a {
-  color: black;
+  color: white;
 }
 
 .animation-wrapper img{
