@@ -5,7 +5,7 @@
         <h5>LEARN MORE</h5>
         <ul class="footer-link">
           <li><a href="{{ url('/services') }}">Services</a></li>
-          <li><a href="{{ url('/about#client') }}">Clients</a></li>
+          <li><a href="/about#clients/">Clients</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-3 col-xl-3">
@@ -38,7 +38,9 @@
     <div class="footer-divider"></div>
     <div class="row site-location justify-content-between mb-4 align-items-center">
       <div class="col-lg-3 h-50">
-        <img src="{{ asset('images/softblue_logo_white.png') }}" class="footerlogo" alt="softblue logo" />
+        <a href="{{ url('/') }}">
+          <img src="{{ asset('images/softblue_logo_white.png') }}" class="footerlogo" alt="softblue logo" />
+        </a>
       </div>
       <div class="col-lg-3 our-address">
         <h5>Office Address:</h5>
@@ -81,3 +83,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="{{ asset('js/nav.js') }}"></script>
+@yield('footerlinks')

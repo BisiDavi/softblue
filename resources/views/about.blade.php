@@ -62,7 +62,7 @@
                   helps us to craft a fit-for-purpose solution regardless of
                   your target market.
                 </p>
-                <a class="text-decoration-none" href="/about#client">
+                <a class="text-decoration-none" href="/about#clients/">
                   <button class="btn btn-blue my-2">OUR CLIENTS</button>
                 </a>
               </div>
@@ -140,7 +140,9 @@
                         methodologies in the industry to ensure that our
                         promise of exceeding satisfaction is kept.
                       </p>
-                      <button class="btn btn-blue">SEE OUR TEAM</button>
+                      <a class="mx-auto" href="/about#ourteam/">
+                        <button class="btn btn-blue">SEE OUR TEAM</button>
+                      </a>
                     </div>
                     <i class="circle circle-pink" style="transform: translateX(0px)"></i>
                     <i class="circle circle-pink circle-xs" style="transform: translateX(0px)"></i>
@@ -229,4 +231,9 @@
     </section>
     @include('partials/hireus')
   </main>
+@endsection
+
+
+@section('footerlinks')
+  <script src="{{ asset('js/tabs.js') }}"></script>
 @endsection
