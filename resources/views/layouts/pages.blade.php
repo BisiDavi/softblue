@@ -35,7 +35,7 @@
         <div class="hero-content position-relative">
           <header class="container-fluid">
             <nav class="navbar navbar-expand-lg">
-              <a href="{{ url('/index') }}" class="navbar-brand">
+              <a href="{{ url('/') }}" class="navbar-brand">
                 <img src="{{ asset('images/softblue_logo.png') }}" class="site-logo" alt="site-logo" />
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
