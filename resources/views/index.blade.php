@@ -21,7 +21,7 @@
       </div>
       <div class="hero-animation">
         <span class="animationsvg">
-            <img src="{{ asset('/images/launch.png') }}" alt="launch with us" />
+          <img src="{{ asset('/images/launch.png') }}" alt="launch with us" />
         </span>
       </div>
     </div>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-lg-4 d-flex flex-column">
           <div class="col services">
-            <img src="{{ asset('/images/profileIcon.svg') }}" alt="profile icon" />
+            <img src="{{ asset('/images/income.svg') }}" alt="profile icon" />
             <h4>Financial and Trading Systems</h4>
             <p>
               Software solutions for financial institutions: loan
@@ -71,7 +71,7 @@
             </p>
           </div>
           <div class="col services">
-            <img src="{{ asset('/images/machinelearningIcon.svg') }}" alt="machine learning icon" />
+            <img src="{{ asset('/images/code.svg') }}" alt="machine learning icon" />
             <h4>Web/Mobile Application Development</h4>
             <p>
               Development of Web/Mobile Applications to meet clients’ unique
@@ -81,7 +81,7 @@
         </div>
         <div class="col-lg-4">
           <div class="col services">
-            <img src="{{ asset('/images/appDevIcon.svg') }}" alt="application development icon" />
+            <img src="{{ asset('/images/opacity.svg') }}" alt="application development icon" />
             <h4>Enterprise Application Integrations</h4>
             <p>
               Integration of enterprise applications in an organisation to
@@ -89,7 +89,7 @@
             </p>
           </div>
           <div class="col services">
-            <img src="{{ asset('/images/analyticsIcon.svg') }}" alt="analytics icon" />
+            <img src="{{ asset('/images/shopping-cart.svg') }}" alt="analytics icon" />
             <h4>E-Commerce (B2B/B2C) Systems</h4>
             <p>Development of e-commerce software for B2B and B2C purposes</p>
           </div>
