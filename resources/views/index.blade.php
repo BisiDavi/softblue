@@ -107,7 +107,7 @@
               Let’s partner to build amazing products that will excite end
               users and drive enterprise ambitions.
             </p>
-            <a href="/contact.html" class="text-decoration-none mx-auto">
+            <a href="/contact" class="text-decoration-none mx-auto">
               <button class="btn btn-blue">GET IN TOUCH</button>
             </a>
           </div>
