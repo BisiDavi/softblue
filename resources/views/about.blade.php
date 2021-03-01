@@ -66,7 +66,7 @@
                   <button class="btn btn-blue my-2">OUR CLIENTS</button>
                 </a>
               </div>
-              <div class="col-lg-5">
+              <div class="col-lg-5 my-auto d-flex">
                 <div class="animation-wrapper d-flex justify-content-end">
                   <img src={{ asset('images/worldmap.jpg') }} />
                 </div>
