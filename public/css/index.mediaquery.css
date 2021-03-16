@@ -249,6 +249,11 @@
         margin-bottom: 0px !important;
     }
 
+    footer .row.pt-5 {
+    width: 100%;
+    }
+
+    footer,
     footer.row.pt-0,
     .row.content.top {
         width: 100%;

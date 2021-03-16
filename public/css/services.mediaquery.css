@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    main.row.bg-white.servicepage-main {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .hire-us.about-us .text-content p {
+        font-size: 16px;
+    }
+
+    .about-us.hire-us .btn-white {
+        width: 120px;
+        padding: 10px;
+    }
+    .service-page .hero-jumbotron .hero-text p,
+    .hero-text h1 {
+        color: white;
+    }
+
+    section.container-fluid.hero,
+    div#particles-js {
+        background-color: black;
+        width: 100%;
+        height: 550px;
+    }
+
+    main.row.bg-white.servicepage-main h1 {
+        font-size: 1.6em;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+}

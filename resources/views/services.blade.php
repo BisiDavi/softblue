@@ -4,6 +4,10 @@
   Services
 @endsection
 
+@section('cssLink')
+<link href="{{ asset('css/services.mediaquery.css') }}" rel="stylesheet" />
+@endsection
+
 @section('page-banner')
   <div class="hero-container px-3 service-page">
     <div class="hero-jumbotron row">
@@ -44,7 +48,7 @@
             platforms etc
           </p>
         </div>
-        <div class="col-lg-6 d-flex flex-column">
+        <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
             <img src={{ asset('images/financialsystems.svg') }} />
           </div>
@@ -53,7 +57,7 @@
     </section>
     <section class="applicationdevelopment container-fluid px-5">
       <div class="row py-1">
-        <div class="col-lg-6 d-flex flex-column">
+        <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
             <img src={{ asset('images/application.svg') }} />
           </div>
@@ -79,7 +83,7 @@
             Development of custom software solutions for telecommunication services
           </p>
         </div>
-        <div class="col-lg-6 d-flex flex-column">
+        <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
             <img src={{ asset('images/telecommunication.svg') }} />
           </div>
@@ -88,7 +92,7 @@
     </section>
     <section class="machinelearning container-fluid px-5">
       <div class="row py-1">
-        <div class="col-lg-6 d-flex flex-column">
+        <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
             <img src={{ asset('images/machinelearning.svg') }} />
           </div>
@@ -113,7 +117,7 @@
             Development of e-commerce software for B2B and B2C purposes
           </p>
         </div>
-        <div class="col-lg-6 d-flex flex-column">
+        <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
             <img src={{ asset('images/ecommerce.svg') }} />
           </div>
@@ -122,7 +126,7 @@
     </section>
     <section class="enterpriseapplication container-fluid px-5">
       <div class="row py-1">
-        <div class="col-lg-6 d-flex flex-column">
+        <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
             <img src={{ asset('images/enterprise.svg') }} />
           </div>
