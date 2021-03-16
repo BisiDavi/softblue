@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+    .indexpage.container-fluid {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
     .hero-animation {
         display: none;
     }
@@ -243,7 +249,8 @@
         margin-bottom: 0px !important;
     }
 
-    footer.row.pt-0, .row.content.top {
-    width: 100%;
-}
+    footer.row.pt-0,
+    .row.content.top {
+        width: 100%;
+    }
 }

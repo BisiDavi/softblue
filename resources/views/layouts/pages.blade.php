@@ -27,50 +27,52 @@
   @yield('cssLink')
 </head>
 
-<body class="container-fluid indexpage">
-  <div class="row content top">
-    <div class="mainbanner">
-      <div class="container-fluid" id="particles-js"></div>
-      <section class="container-fluid hero">
-        <div class="hero-content position-relative">
-          <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg">
-              <a href="{{ url('/') }}" class="navbar-brand">
-                <img src="{{ asset('images/softblue_logo.png') }}" class="site-logo" alt="site-logo" />
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div id="menuNav" class="navbar-nav">
-                  <a class="nav-link text-white" href="{{ url('/about') }}">
-                    <h4>ABOUT US</h4>
-                  </a>
-                  <a class="nav-link text-white" href="{{ url('/services') }}">
-                    <h4>SERVICES</h4>
-                  </a>
-                  <a class="nav-link text-white" href="{{ url('/contact') }}">
-                    <h4>CONTACT</h4>
-                  </a>
+<body>
+  <div class="indexpage container-fluid">
+    <div class="row content top">
+      <div class="mainbanner">
+        <div class="container-fluid" id="particles-js"></div>
+        <section class="container-fluid hero">
+          <div class="hero-content position-relative">
+            <header class="container-fluid">
+              <nav class="navbar navbar-expand-lg">
+                <a href="{{ url('/') }}" class="navbar-brand">
+                  <img src="{{ asset('images/softblue_logo.png') }}" class="site-logo" alt="site-logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div id="menuNav" class="navbar-nav">
+                    <a class="nav-link text-white" href="{{ url('/about') }}">
+                      <h4>ABOUT US</h4>
+                    </a>
+                    <a class="nav-link text-white" href="{{ url('/services') }}">
+                      <h4>SERVICES</h4>
+                    </a>
+                    <a class="nav-link text-white" href="{{ url('/contact') }}">
+                      <h4>CONTACT</h4>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <span onclick="showMenuLinks()" id="hamburgerMenu" class="hamburger-menu">
-                <i class="hamburger-bars"></i>
-              </span>
-            </nav>
-          </header>
-          @yield('page-banner')
-        </div>
-      </section>
+                <span onclick="showMenuLinks()" id="hamburgerMenu" class="hamburger-menu">
+                  <i class="hamburger-bars"></i>
+                </span>
+              </nav>
+            </header>
+            @yield('page-banner')
+          </div>
+        </section>
+      </div>
     </div>
+  
+    @yield('content')
+
+    @include('partials.footer')
+
+    @yield('typewriter-script')
   </div>
-
-  @yield('content')
-
-  @include('partials.footer')
-
-  @yield('typewriter-script')
 </body>
 
 </html>
