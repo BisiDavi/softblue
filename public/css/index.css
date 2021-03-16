@@ -557,10 +557,8 @@ section.build-with-us * {
 }
 .build-content .section-backgroundimg {
   position: absolute;
-  width: 98% !important;
+  width: 100% !important;
   height: 100%;
-  background-image: url('/images/buildWithUs.svg');
-  background-size: cover;
 }
 
 .build-content .text-content {

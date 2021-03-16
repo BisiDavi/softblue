@@ -28,7 +28,7 @@
 </head>
 
 <body class="container-fluid indexpage">
-  <div class="row content">
+  <div class="row content top">
     <div class="mainbanner">
       <div class="container-fluid" id="particles-js"></div>
       <section class="container-fluid hero">

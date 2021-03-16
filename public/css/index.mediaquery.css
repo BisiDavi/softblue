@@ -135,6 +135,7 @@
         margin-top: -50px;
         z-index: 100;
         position: relative;
+        width: 100%;
     }
 
     main section.our-services .row {
@@ -241,4 +242,8 @@
     footer .row.site-location {
         margin-bottom: 0px !important;
     }
+
+    footer.row.pt-0, .row.content.top {
+    width: 100%;
+}
 }
