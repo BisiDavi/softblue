@@ -25,7 +25,7 @@
     }
     .mainbanner,
     .mainbanner .hero-content {
-        height: 50vh;
+        height: 600px;
     }
     .sponsorsbrand .brand-content span.brand-logos img {
         margin: 0px 15px;
@@ -57,7 +57,7 @@
     }
 
     div#menuNav a h4 {
-    font-size: 50px;
+        font-size: 50px;
     }
 
     .hero-text {
@@ -221,7 +221,7 @@
     }
 
     section.build-with-us {
-        height: 28vh;
+        height: 300px;
     }
 
     .build-with-us button.btn.btn-blue {
