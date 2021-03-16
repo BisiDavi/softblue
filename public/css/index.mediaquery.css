@@ -37,18 +37,27 @@
         overflow: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none;
+        margin-top: 10px;
     }
     .sponsorsbrand .brand-content span.brand-logos::-webkit-scrollbar {
         display: none;
     }
     #menuNav.navbar-nav.show {
         display: flex;
-        position: absolute;
+        position: fixed;
         top: 0px;
         width: 100vw;
+        margin: auto;
+        padding-top: 150px;
+        align-items: center;
         height: 100vh;
         left: 0px;
+        z-index: 10000;
         background: rgba(0, 0, 0, 0.9);
+    }
+
+    div#menuNav a h4 {
+    font-size: 50px;
     }
 
     .hero-text {
@@ -104,7 +113,7 @@
     }
 
     .hero-jumbotron .hero-text p {
-        margin-top: 60px;
+        margin-top: 45px;
     }
 
     .sponsorsbrand .brand-content {
@@ -124,7 +133,7 @@
 
     main.row.pb-4 {
         margin-top: -50px;
-        z-index: 1000;
+        z-index: 100;
         position: relative;
     }
 
@@ -137,8 +146,7 @@
     }
 
     .hero-text .divider.divider-pink {
-        margin: auto;
-        margin: 70px auto -60px auto;
+        margin: 40px auto -35px auto;
     }
 
     .our-services .col-lg-4 {
@@ -212,6 +220,10 @@
         margin-bottom: 0px !important;
     }
 
+    section.build-with-us {
+        height: 28vh;
+    }
+
     .build-with-us button.btn.btn-blue {
         font-size: 0.8em;
         padding: 10px;
@@ -221,5 +233,12 @@
     footer.row .site-location img.footerlogo {
         height: 40px !important;
         width: 150px !important;
+    }
+
+    footer .site-links {
+        padding: 0px !important;
+    }
+    footer .row.site-location {
+        margin-bottom: 0px !important;
     }
 }
