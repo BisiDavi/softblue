@@ -100,7 +100,7 @@
         padding: 0px !important;
     }
     section.about-us.hire-us {
-        height: 280px;
+        height: 340px;
     }
     .hire-us.about-us .row .text-content {
         padding: 0px 50px;
@@ -133,5 +133,11 @@
         padding: 10px;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         position: relative;
+    }
+}
+
+@media (max-width: 350px) {
+    #menuTab li:nth-child(2) {
+        width: 120px;
     }
 }

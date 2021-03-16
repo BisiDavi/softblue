@@ -56,7 +56,7 @@
         margin: auto;
         padding-top: 150px;
         align-items: center;
-        height: 100vh;
+        height: 100%;
         left: 0px;
         z-index: 10000;
         background: rgba(0, 0, 0, 0.9);
