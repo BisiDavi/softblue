@@ -23,7 +23,24 @@
         top: 0px;
         left: 0px;
     }
+    .mainbanner,
+    .mainbanner .hero-content {
+        height: 50vh;
+    }
+    .sponsorsbrand .brand-content span.brand-logos img {
+        margin: 0px 15px;
+        width: 100%;
+    }
 
+    .sponsorsbrand .brand-content span.brand-logos {
+        display: flex;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .sponsorsbrand .brand-content span.brand-logos::-webkit-scrollbar {
+        display: none;
+    }
     #menuNav.navbar-nav.show {
         display: flex;
         position: absolute;
