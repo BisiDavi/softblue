@@ -252,5 +252,7 @@
     footer.row.pt-0,
     .row.content.top {
         width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
     }
 }

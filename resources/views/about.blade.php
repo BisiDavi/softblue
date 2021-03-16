@@ -6,6 +6,7 @@
 
 @section('cssLink')
   <link rel="stylesheet" href="{{ asset('css/about.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/about.mediaquery.css') }}" />
 @endsection
 
 @section('page-banner')
@@ -42,13 +43,13 @@
 @endsection
 
 @section('content')
-  <main class="row bg-white">
+  <main class="row bg-white about">
     <section class="about-page pt-2">
       <div class="row w-100">
         <div class="tab-content">
           <div class="tab-pane active" id="company" role="tabpanel" aria-labelledby="company-tab">
             <section class="partners-section mb-3 mx-auto d-flex col-lg-12 px-5">
-              <div class="partner-text-content d-flex flex-column col-lg-7">
+              <div class="partner-text-content d-flex flex-column col-lg-7 col-sm-12">
                 <h1 class="my-2 jumbo-text">
                   GLOBALLY DIVERSE <br />
                   PERSPECTIVE
@@ -66,7 +67,7 @@
                   <button class="btn btn-blue my-2">OUR CLIENTS</button>
                 </a>
               </div>
-              <div class="col-lg-5 my-auto d-flex">
+              <div class="col-lg-5 my-auto d-flex col-sm-12">
                 <div class="animation-wrapper d-flex justify-content-end">
                   <img src={{ asset('images/worldmap.jpg') }} />
                 </div>
@@ -75,12 +76,13 @@
             <section class="milestone-section container-fluid">
               <div class="container-fluid px-5">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 col-sm-12">
                     <div class="milestone-chart-animation">
                       <img src={{ asset('images/tracker.jpg') }} />
                     </div>
                   </div>
-                  <div class="col-lg-6 d-flex flex-column mt-4 pt-4">
+                  <div class="col-lg-6 col-sm-12 d-flex flex-column mt-4 pt-4 text-row">
+                    
                     <h1 class="my-2 jumbo-text">
                       SOFTWARE DEVELOPMENT, <br />
                       DE-RISKED
@@ -113,7 +115,7 @@
                     product's lifecycle.
                   </p>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 hidden">
                   <div class="animation-wrapper">
                     <img src={{ asset('images/visiblitycontrol.svg') }} />
                   </div>
@@ -124,10 +126,10 @@
               <h1 class="text-center py-5 text-white">Staff images</h1>
             </section>
             <section class="talent-colony container-fluid bg-white mb-5 py-5 ease-translate">
-              <div class="row">
-                <div class="container">
-                  <div class="col-lg-12 col-xl-12 p-5">
-                    <div class="p-5">
+              <div class="row colony">
+                <div class="container talent-container">
+                  <div class="col-lg-12 col-xl-12 p-5 talents">
+                    <div class="p-5 text-content">
                       <h1 class="text-center my-2 jumbo-text">
                         OUR TALENT COLONY
                       </h1>
@@ -144,6 +146,7 @@
                         <button class="btn btn-blue">SEE OUR TEAM</button>
                       </a>
                     </div>
+                    <div class="talent-img">
                     <i class="circle circle-pink" style="transform: translateX(0px)"></i>
                     <i class="circle circle-pink circle-xs" style="transform: translateX(0px)"></i>
                     <i class="circle circle-blue circle-xs" style="transform: translateX(0px)"></i>
@@ -154,6 +157,7 @@
                     <img src="https://via.placeholder.com/85" style="transform: translateX(0px)" />
                     <img src="https://via.placeholder.com/100" style="transform: translateX(0px)" />
                     <img src="https://via.placeholder.com/180" style="transform: translateX(0px)" />
+                    </div>
                   </div>
                 </div>
               </div>

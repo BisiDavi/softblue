@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+    main.row.bg-white {
+        width: 100%;
+    }
+
+    .mainbanner #particles-js {
+        height: 530px;
+    }
+
+    #menuTab li:nth-child(2) {
+        width: 130px;
+    }
+
+    #menuTab li {
+        width: 100px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #menuTab ul li a.nav-link {
+        margin: 0px !important;
+        font-size: 15px;
+    }
+
+    main.row.bg-white.about {
+        margin-top: -70px;
+        margin-left: 0px;
+    }
+
+    section.partners-section {
+        padding: 0px !important;
+        flex-direction: column;
+    }
+
+    section.about-page {
+        margin: 0px;
+    }
+
+    .partner-text-content {
+        order: 2;
+    }
+
+    section.about-page.pt-2 .row {
+        margin: 0px;
+    }
+
+    #company .partner-text-content button.btn {
+        width: 170px !important;
+        padding: 10px;
+        font-size: 15px;
+    }
+    #company .partner-text-content button a {
+        width: fit-content;
+    }
+    section.milestone-section.container-fluid {
+        margin-top: -15px;
+    }
+    section.milestone-section .container-fluid {
+        padding: 0px !important;
+        margin-top: -30px;
+    }
+    .text-row {
+        margin-top: -15px !important;
+    }
+    .milestone-chart-animation img {
+        height: 250px;
+    }
+    section.vc-section {
+        padding: 0px !important;
+    }
+    .vc-section .col-lg-6 {
+        padding: 0px;
+    }
+    .vc-section .hidden {
+        display: none;
+    }
+
+    .colony,
+    .talent-container,
+    .talents {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .talent-img {
+        display: none;
+    }
+
+    .talents .text-content p,
+    .talents .text-content {
+        padding: 0px !important;
+    }
+
+    .hero-content .hero-text h1 {
+        margin-top: 40px;
+        font-size: 1.5em;
+    }
+    section.about-us.hire-us .row {
+        padding: 0px !important;
+    }
+    section.about-us.hire-us {
+        height: 280px;
+    }
+    .hire-us.about-us .row .text-content {
+        padding: 0px 50px;
+        width: 100% !important;
+    }
+    section.talent-colony {
+        margin-bottom: 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .hire-us.about-us .text-content p {
+        font-size: 16px;
+    }
+
+    .about-us.hire-us .btn-white {
+        width: 120px;
+        padding: 10px;
+    }
+    
+    .staff-gallery.row.mt-5 img {
+    width: 100%;
+  }
+
+  .staff-gallery.row.mt-5 {
+    width: 100%;
+    height: 360px;
+  }
+}
