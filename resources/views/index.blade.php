@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid brands">
     <div class="sponsorsbrand row flex-column mx-auto">
       <div class="brand-content d-flex justify-content-between w-100">
         <p>You are in good company</p>
@@ -41,7 +41,7 @@
 @endsection
 
 @section('content')
-  <main class="row pb-4 w-100 mx-auto">
+  <main class="row pb-4 w-100 mx-auto main-content">
     <section class="our-services container-fluid p-5">
       <div class="row py-5">
         <div class="col-lg-4 ourservices">

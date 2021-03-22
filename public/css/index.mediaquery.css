@@ -301,7 +301,7 @@
         font-size: 1.3vw;
     }
     span.brand-logos img {
-        margin: -15px 80px 0px 80px;
+        margin: -15px 60px 0px 60px;
         width: 15%;
     }
     span.brand-logos {
@@ -355,7 +355,58 @@
     }
 }
 
-@media (min-width: 1300px) and (max-width: 1600px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero-text h1 {
+        font-size: 3.5vw;
+    }
+    .homepage.hero-jumbotron.row {
+        width: 50%;
+        margin-top: -10%;
+    }
+    nav .navbar-brand img.site-logo {
+        width: 20%;
+        height: 80px;
+    }
+    .hero-animation {
+        margin-top: 10%;
+        right: 0px;
+    }
+    .hero-jumbotron .hero-text p {
+        font-size: 2.2vw;
+        font-weight: 600;
+    }
+    .brand-content {
+        margin-top: -50px;
+    }
+    .hero-content .sponsorsbrand::before {
+        margin-top: -40px;
+    }
+    .container-fluid.brands .sponsorsbrand {
+        height: 100px;
+    }
+    main.main-content {
+        top: -70px;
+        position: relative;
+        z-index: 100;
+    }
+    section.our-services.container-fluid.p-5 {
+        padding-top: 0px !important;
+    }
+    footer.row.pt-0.mx-auto {
+        margin-top: -140px;
+        position: relative;
+        z-index: 1000;
+    }
+    div#menuNav a {
+        margin-top: 25px;
+    }
+    .homepage .hero-animation span.animationsvg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
     .indexpage .hero-animation span.animationsvg img {
         width: 50%;
         margin-top: 50px;
