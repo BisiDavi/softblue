@@ -354,3 +354,18 @@
         font-weight: 600;
     }
 }
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+    .indexpage .hero-animation span.animationsvg img {
+        width: 50%;
+        margin-top: 50px;
+    }
+    .indexpage .hero-animation {
+        width: 100%;
+    }
+    .hero-jumbotron .hero-text p {
+        font-size: 1.7vw;
+        width: 40%;
+        font-weight: 500;
+    }
+}
