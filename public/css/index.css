@@ -16,6 +16,11 @@ ul li {
   list-style: none;
 }
 
+.indexpage.container-fluid {
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 a:hover {
   text-decoration: none;
   color: red;
@@ -220,6 +225,7 @@ main.servicepage-main .container-fluid img {
 
 .hero-content {
   height: 100vh;
+  width: 100%;
 }
 
 .hero-content #menuTab.sponsorsbrand.about {

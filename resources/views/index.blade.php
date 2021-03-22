@@ -26,23 +26,25 @@
       </div>
     </div>
   </div>
-  <div class="sponsorsbrand row flex-column mx-auto">
-    <div class="brand-content d-flex justify-content-between w-100">
-      <p>You are in good company</p>
-      <span class="brand-logos">
-        <img src="{{ asset('/images/interswitch.png') }}" alt="brand partners" />
-        <img src="{{ asset('/images/venturegarden.png') }}" alt="brand partners" />
-        <img src="{{ asset('/images/upwork.png') }}" alt="brand partners" />
-      </span>
+  <div class="container-fluid">
+    <div class="sponsorsbrand row flex-column mx-auto">
+      <div class="brand-content d-flex justify-content-between w-100">
+        <p>You are in good company</p>
+        <span class="brand-logos">
+          <img src="{{ asset('/images/interswitch.png') }}" alt="brand partners" />
+          <img src="{{ asset('/images/venturegarden.png') }}" alt="brand partners" />
+          <img src="{{ asset('/images/upwork.png') }}" alt="brand partners" />
+        </span>
+      </div>
     </div>
   </div>
 @endsection
 
 @section('content')
-  <main class="row pb-4">
+  <main class="row pb-4 w-100 mx-auto">
     <section class="our-services container-fluid p-5">
       <div class="row py-5">
-        <div class="col-lg-4">
+        <div class="col-lg-4 ourservices">
           <h1>OUR SERVICES</h1>
           <span class="divider divider-blue"></span>
           <p>

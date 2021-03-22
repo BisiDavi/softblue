@@ -29,11 +29,11 @@
 
 <body>
   <div class="indexpage container-fluid">
-    <div class="row content top">
-      <div class="mainbanner">
+    <div class="row content mx-auto top">
+      <div class="mainbanner col-lg-12">
         <div class="container-fluid" id="particles-js"></div>
         <section class="container-fluid hero">
-          <div class="hero-content position-relative">
+          <div class="hero-content row position-relative">
             <header class="container-fluid">
               <nav class="navbar navbar-expand-lg">
                 <a href="{{ url('/') }}" class="navbar-brand">

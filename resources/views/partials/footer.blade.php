@@ -1,4 +1,4 @@
-<footer class="row pt-0">
+<footer class="row pt-0 mx-auto">
   <div class="site-links container-fluid p-5 mb-5">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-3 col-xl-3">
