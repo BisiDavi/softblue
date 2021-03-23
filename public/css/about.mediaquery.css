@@ -1,3 +1,6 @@
+.mainbanner {
+    background-color: black;
+}
 @media (max-width: 768px) {
     main.row.bg-white {
         width: 100%;
