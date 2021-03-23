@@ -5,7 +5,7 @@
 @endsection
 
 @section('page-banner')
-  <div class="container-fluid">
+  <div class="container-fluid home-banner">
     <div class="homepage hero-jumbotron row">
       <div class="hero-text col-lg-12 col-md-6 col-sm-12 mt-5 position-relative">
         <h1>BUILD THE RIGHT</h1>

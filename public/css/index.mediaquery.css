@@ -420,3 +420,42 @@
         font-weight: 500;
     }
 }
+
+@media (max-width: 425px) {
+    div#particles-js {
+        background-color: black;
+    }
+
+    .mainbanner.col-lg-12 {
+        background: black;
+    }
+    .homepage .hero-text h1,
+    .homepage .hero-text p {
+        color: white;
+    }
+    .homepage .hero-text {
+        margin-top: -70px !important;
+    }
+    main.row.main-content {
+        margin-top: 0px;
+    }
+    .container-fluid.home-banner {
+        margin-top: -100px;
+        height: 100px;
+    }
+    .sponsorsbrand.row.flex-column.mx-auto {
+        z-index: 100;
+        position: relative;
+        width: 100%;
+        bottom: 0px;
+    }
+    .container-fluid.brands {
+        background: white;
+        width: 100%;
+        height: 100px;
+        margin-top: 0px;
+        position: absolute;
+        bottom: 5px;
+        z-index: 1000;
+    }
+}
