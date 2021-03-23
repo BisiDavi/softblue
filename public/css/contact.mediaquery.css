@@ -1,0 +1,141 @@
+span.animationsvg.contact-page {
+    height: 100%;
+}
+.contactpage .hero-jumbotron .hero-text p {
+    width: 80%;
+}
+@media (min-width: 768px) {
+    .contactpage .hero-animation span.animationsvg img {
+        width: 100%;
+        height: 600px;
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .contactpage .hero-text h1 {
+        font-size: 4vw;
+    }
+    .contactpage .hero-animation span.animationsvg img {
+        height: 100%;
+    }
+    span.animationsvg.contact-page {
+        height: 100%;
+    }
+    .contactpage .hero-animation {
+        height: 100%;
+        width: 100%;
+    }
+    .contact-form h1.jumbo-text.text-center {
+        font-size: 3vw;
+    }
+    .contact-form p.text-center {
+        width: 100% !important;
+        font-size: 1.5vw;
+    }
+
+    .input-group.mx-auto.w-50.mb-3 {
+        width: 75% !important;
+    }
+    #formOne select,
+    #formOne input,
+    #formOne textarea {
+        width: 75% !important;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 1vw;
+    }
+    select.custom-select option {
+        font-size: 18px;
+    }
+    select.custom-select {
+        font-size: 20px !important;
+    }
+    .input-group-append,
+    .custom-file.file {
+        margin-top: 40px;
+    }
+
+    .hire-us h1 {
+        font-size: 2.5vw;
+    }
+    .hire-us p {
+        font-size: 1.4vw;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    section.contact-form.container {
+        margin-top: 100px;
+    }
+    section.hire-us.about-us .text-content {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 6vw;
+        color: white;
+    }
+    div#particles-js,
+    .mainbanner {
+        background: black;
+    }
+    .contactpage .hero-jumbotron .hero-text p {
+        color: white;
+        font-size: 3vw;
+    }
+    .contact-form p.text-center {
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-form p {
+        width: 75% !important;
+    }
+    .hero-text h1 {
+        font-size: 11vw;
+    }
+    .contactpage .hero-jumbotron .hero-text p {
+        font-size: 5vw;
+        line-height: 26px;
+    }
+    .input-group,
+    .contact-form input {
+        width: 75% !important;
+        height: 50px !important;
+    }
+    textarea {
+        width: 75% !important;
+    }
+    .input-group.mx-auto.w-50.mb-3.upload {
+        height: 35px !important;
+    }
+    label.custom-file-label {
+        font-size: 14px;
+    }
+    .upload {
+        margin-top: 30px;
+    }
+    .input-group.select {
+        margin: 0px auto 60px auto !important;
+    }
+    .input-group select {
+        height: 50px !important;
+        font-size: 16px !important;
+        padding: 0px 10px !important;
+    }
+    .input-group-append {
+        height: 100%;
+    }
+    section.hire-us.about-us {
+        height: 60vw;
+    }
+    section.hire-us h1 {
+        font-size: 8vw;
+    }
+}

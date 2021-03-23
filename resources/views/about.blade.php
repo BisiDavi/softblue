@@ -10,7 +10,7 @@
 @endsection
 
 @section('page-banner')
-  <div class="container">
+  <div class="container about-page">
     <div class="hero-jumbotron row">
       <div class="hero-text col-lg-8 col-md-8 col-sm-12 mx-auto d-flex flex-column">
         <h1 class="text-center text-white">BEAUTIFULLY ENGINEERED PRODUCTS</h1>
@@ -18,7 +18,7 @@
         <span class="divider divider-pink mx-auto"></span>
         <p class="text-center mx-auto text-white">
           Our partnership model ensures that we help amplify your
-          visions and deliver on our promise of success..
+          visions and deliver on our promise of success.
         </p>
       </div>
     </div>

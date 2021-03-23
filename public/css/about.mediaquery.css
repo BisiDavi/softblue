@@ -141,3 +141,12 @@
         width: 120px;
     }
 }
+
+@media (min-width: 768px) {
+    .about-page .hero-text p {
+        width: 50%;
+    }
+    div#menuNav a {
+        margin-top: 10px;
+    }
+}

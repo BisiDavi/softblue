@@ -1,5 +1,5 @@
 <footer class="row pt-0 mx-auto">
-  <div class="site-links container-fluid p-5 mb-5">
+  <div class="site-links container-fluid px-5 mb-3">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-3 col-xl-3">
         <h5>LEARN MORE</h5>
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="footer-divider"></div>
-    <div class="row site-location justify-content-between mb-4 align-items-center">
+    <div class="row site-location justify-content-between mb-1 align-items-center">
       <div class="col-lg-3 h-50">
         <a href="{{ url('/') }}">
           <img src="{{ asset('images/softblue_logo_white.png') }}" class="footerlogo" alt="softblue logo" />

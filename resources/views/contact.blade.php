@@ -4,10 +4,13 @@
   Contact Us
 @endsection
 
+@section('cssLink')
+  <link rel="stylesheet" href="{{ asset('css/contact.mediaquery.css') }}" />
+@endsection
 @section('page-banner')
-  <div class="container-fluid">
+  <div class="container-fluid contactpage">
     <div class="hero-jumbotron row">
-      <div class="hero-text col-lg-8 col-md-6 col-sm-12 mt-5">
+      <div class="hero-text col-lg-6 col-md-6 col-sm-12">
         <h1 class="jumbo-text mb-5">
           START YOUR PROJECT
           <br />
@@ -19,7 +22,7 @@
           demand.
         </p>
       </div>
-      <div class="hero-animation col-lg-4 col-md-6 col-sm-12">
+      <div class="hero-animation col-lg-6 col-md-6 col-sm-12">
         <span class="animationsvg contact-page">
           <img
             src="/images/contact-us.jpg"
@@ -81,13 +84,13 @@
                   class="form-control form-control-lg"
                   required
                 />
-                <div class="input-group mx-auto w-50 mb-3">
+                <div class="input-group mx-auto w-50 mb-3 select">
                   <select
                     class="custom-select form-control form-control-lg"
                     id="services"
                     required
                   >
-                    <option selected>Services Required.</option>
+                    <option class="selected" selected>Services Required.</option>
                     <option value="IT Consultancy">IT Consultancy</option>
                     <option value="Software Development">
                       Software Development
@@ -106,8 +109,8 @@
                     </option>
                   </select>
                 </div>
-                <div class="input-group mx-auto w-50 mb-3">
-                  <div class="custom-file">
+                <div class="input-group mx-auto w-50 mb-3 upload">
+                  <div class="custom-file file">
                     <input
                       type="file"
                       class="custom-file-input form-control form-control-lg"
@@ -127,7 +130,7 @@
                     >
                   </div>
                 </div>
-                <div class="input-group mx-auto w-50 mb-3">
+                <div class="input-group mx-auto w-50 mb-3 select">
                   <select
                     class="custom-select form-control form-control-lg"
                     id="services"

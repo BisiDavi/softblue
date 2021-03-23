@@ -275,7 +275,7 @@
         width: 45%;
     }
     nav .navbar-brand img.site-logo {
-        width: 15%;
+        width: 250px;
         height: 100px;
     }
     span#hamburgerMenu i {
@@ -407,7 +407,7 @@
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1600px) {
-    .indexpage .hero-animation span.animationsvg img {
+    .hero-animation span.animationsvg img {
         width: 50%;
         margin-top: 50px;
     }
