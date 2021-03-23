@@ -14,6 +14,16 @@
         width: 130px;
     }
 
+    .container.about-page {
+        margin-top: 70px;
+    }
+
+    .hero-content #menuTab.sponsorsbrand {
+        position: relative;
+        width: 100%;
+        bottom: -90px;
+    }
+
     #menuTab li {
         width: 100px;
         display: flex;

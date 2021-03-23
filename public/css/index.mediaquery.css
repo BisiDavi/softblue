@@ -13,6 +13,13 @@
         text-align: center;
         margin-bottom: 0px;
     }
+    .ourservices h1 {
+        font-size: 6vw;
+        font-weight: 500;
+    }
+    .build-content .text-content h1 {
+        font-size: 5vw;
+    }
     .hero-text .d-flex {
         flex-direction: column;
     }
@@ -63,7 +70,7 @@
     }
 
     div#menuNav a h4 {
-        font-size: 50px;
+        font-size: 7vw;
     }
 
     .hero-text {
@@ -75,6 +82,10 @@
 
     .hero-text .divider.divider-pink {
         margin: auto;
+    }
+
+    .hire-us .text-content h1 {
+        font-size: 7vw;
     }
 
     .hero-jumbotron .hero-text p {
@@ -456,6 +467,6 @@
         margin-top: 0px;
         position: absolute;
         bottom: 5px;
-        z-index: 1000;
+        z-index: 1;
     }
 }
