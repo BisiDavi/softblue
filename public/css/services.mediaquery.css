@@ -5,6 +5,28 @@
         margin: 0px;
     }
 
+    .hero-text span.divider.divider-pink {
+        margin-top: -40px;
+    }
+
+    .hero-text {
+        margin-top: -20px !important;
+        width: 100% !important;
+        margin: auto;
+    }
+    .mainbanner.col-lg-12 {
+        background: black;
+    }
+    .hero-text h1 {
+        font-size: 8vw;
+    }
+
+    .service-page .hero-jumbotron .hero-text p {
+        font-size: 3vw;
+        line-height: 26px;
+        width: 100%;
+    }
+
     .hire-us.about-us .text-content p {
         font-size: 16px;
     }
@@ -32,4 +54,29 @@
     .hidden {
         display: none !important;
     }
+}
+
+@media (min-width: 768px) {
+    .service-page .hero-animation span.animationsvg img {
+        margin-top: -70px;
+    }
+    .servicepage-main h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 425px) {
+    .service-page .hero-jumbotron .hero-text p {
+        font-size: 4vw;
+    }
+    .service-page .hero-jumbotron .hero-text h1 {
+        font-size: 9vw;
+    }
+    .hire-us.about-us .row .text-content {
+        padding: 0px 10px 0px 30px;
+        width: 100% !important;
+    }
+}
+section.hire-us.about-us {
+    height: 300px;
 }

@@ -26,6 +26,11 @@
     main.row.bg-white.about {
         margin-top: -70px;
         margin-left: 0px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     section.partners-section {
@@ -93,8 +98,18 @@
     }
 
     .hero-content .hero-text h1 {
-        margin-top: 40px;
+        margin-top: 10px;
         font-size: 1.5em;
+    }
+
+    .hero-content .about-page p {
+        margin-top: 70px;
+        font-size: 4vw;
+        line-height: 26px;
+    }
+
+    .hero-content .hero-text h1 {
+        font-size: 8vw;
     }
     section.about-us.hire-us .row {
         padding: 0px !important;
@@ -136,6 +151,20 @@
     }
 }
 
+@media (min-width: 426px) and (max-width: 768px) {
+    .hero-content .hero-text h1 {
+        font-size: 5vw;
+    }
+    .about-page .hero-text .divider.divider-pink {
+        margin-top: 30px;
+        margin-bottom: -50px;
+    }
+    .hero-content .hero-text p {
+        font-size: 5vw;
+        width: 100%;
+    }
+}
+
 @media (max-width: 350px) {
     #menuTab li:nth-child(2) {
         width: 120px;
@@ -148,5 +177,11 @@
     }
     div#menuNav a {
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    #myTab li.nav-item a.active::before {
+        width: 100px;
     }
 }
