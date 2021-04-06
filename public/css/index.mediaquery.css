@@ -435,6 +435,7 @@
 @media (max-width: 425px) {
     div#particles-js {
         background-color: black;
+        height: 100%;
     }
 
     .mainbanner.col-lg-12 {
