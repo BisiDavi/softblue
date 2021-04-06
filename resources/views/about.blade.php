@@ -165,7 +165,7 @@
           <div class="tab-pane" id="ourteam" role="tabpanel" aria-labelledby="team-tab">
             <div class="ourteams team-members container-fluid">
               <div class="container">
-                <div class="row py-5">
+                <div class="row py-5 team-mate">
                   <div class="col-lg-3 member d-flex flex-column">
                     <a class="linkedin" href="#linkedin">
                       <i class="fab fa-linkedin"></i>

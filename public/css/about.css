@@ -1,3 +1,7 @@
-.mainbanner #particles-js{
-  background-color:black;
+.mainbanner #particles-js {
+    background-color: black;
+}
+
+.team-mate div {
+    margin: 10px 0px;
 }
