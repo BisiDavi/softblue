@@ -135,9 +135,8 @@
                       </h1>
                       <span class="divider divider-pink mx-auto"></span>
                       <p class="text-center my-2">
-                        A cast of highly motivated Engineers, Data Scientists,
-                        Designers, Strategists and Thinkers with a common
-                        flair for innovation and excellence. Intelia vets
+                        At Softblue, We are a cast of passion driven Software Engineers,Project Manager, Data Scientists,
+                        Designers, Strategists,with a blazing interest in innovation and excellence. At Softblue, we vets
                         talent using one of the most stringent assessment
                         methodologies in the industry to ensure that our
                         promise of exceeding satisfaction is kept.
@@ -180,9 +179,18 @@
                     <a class="linkedin" href="#linkedin">
                       <i class="fab fa-linkedin"></i>
                     </a>
+                    <img src="{{ asset('/images/Moyo.webp') }}" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Moyo Hicks</h3>
+                    <p class="job-title">Business Analyst</p>
+                    <span class="divider divider-pink"></span>
+                  </div>
+                  <div class="col-lg-3 member d-flex flex-column">
+                    <a class="linkedin" href="#linkedin">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
                     <img src="https://ca.slack-edge.com/TMDN8LQJW-U01D1BCP3FB-97a80c5e2375-512" alt="team member" class="rounded-circle" />
                     <h3 class="member-name">Oluwafunmilade Akande</h3>
-                    <p class="job-title">Project Manager</p>
+                    <p class="job-title">Product Manager</p>
                     <span class="divider divider-pink"></span>
                   </div>
                   <div class="col-lg-3 member d-flex flex-column">
@@ -203,8 +211,37 @@
                     <p class="job-title">Software Engineer</p>
                     <span class="divider divider-pink"></span>
                   </div>
+                  <div class="col-lg-3 member d-flex flex-column">
+                    <a class="linkedin" href="#linkedin">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-UMWLPAN80-537d7f407124-512" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Nathaniel Shodunke</h3>
+                    <p class="job-title">UX Designer</p>
+                    <span class="divider divider-pink"></span>
+                  </div>
+                  <div class="col-lg-3 member d-flex flex-column">
+                    <a class="linkedin" href="#linkedin">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01GDL750JC-e9d1a6cecc75-512" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Adenireti Jayeioba</h3>
+                    <p class="job-title">Product Manager</p>
+                    <span class="divider divider-pink"></span>
+                  </div>
+                  <div class="col-lg-3 member d-flex flex-column">
+                    <a class="linkedin" href="#linkedin">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01JNLQ2DRV-1ebc7fc55090-512" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Alexzender Samuel</h3>
+                    <p class="job-title">Software Engineer</p>
+                    <span class="divider divider-pink"></span>
+                  </div>
                 </div>
+               
               </div>
+
               {{-- <div class="staff-gallery row mt-5">
                 <div>
                   <img src="https://via.placeholder.com/400" alt="softblue staff image" />
@@ -219,6 +256,13 @@
               <img src="{{ asset('/images/interswitch.png') }}" alt="softblue clients"  />
               <img src="{{ asset('/images/venturegarden.png') }}" alt="softblue clients"  />
               <img src="{{ asset('/images/upwork.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/qcadvance.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/quickMoney.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/paycheap.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/lagosState.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/borrowMoney.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/lendingtree.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/acorns.png') }}" alt="softblue clients"  />
             </div>
           </div>
         </div>
