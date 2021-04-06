@@ -80,3 +80,15 @@
 section.hire-us.about-us {
     height: 300px;
 }
+
+.service-page.px-3 {
+    border-bottom: 1px solid gray;
+}
+
+main.row.bg-white.servicepage-main {
+    margin-top: 20px;
+}
+
+.animation.mx-auto.finance img {
+    height: 120px;
+}

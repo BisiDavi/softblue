@@ -40,7 +40,7 @@
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
-            <img src={{ asset('images/financialsystems.svg') }} />
+            <img src="{{ asset('/images/financialsystems.svg') }}" />
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
@@ -67,8 +67,8 @@
           </p>
         </div>
         <div class="col-lg-6 d-flex flex-column hidden">
-          <div class="animation">
-            <img src={{ asset('images/financialsystems.svg') }} />
+          <div class="animation mx-auto finance">
+            <img src="{{ asset('images/fintech.svg') }}" />
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
-            <img src={{ asset('images/application.svg') }} />
+            <img src="{{ asset('images/application.svg') }}" />
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
@@ -103,7 +103,7 @@
         </div>
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
-            <img src={{ asset('images/telecommunication.svg') }} />
+            <img src="{{ asset('images/telecommunication.svg') }}" />
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
-            <img src={{ asset('images/machinelearning.svg') }} />
+            <img src="{{ asset('images/machinelearning.svg') }}" />
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
@@ -137,7 +137,7 @@
         </div>
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
-            <img src={{ asset('images/ecommerce.svg') }} />
+            <img src="{{ asset('images/ecommerce.svg') }}" />
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
-            <img src={{ asset('images/enterprise.svg') }} />
+            <img src="{{ asset('images/enterprise.svg') }}" />
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
