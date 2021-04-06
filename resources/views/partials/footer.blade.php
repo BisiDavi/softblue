@@ -2,7 +2,7 @@
   <div class="site-links container-fluid px-5 mb-3">
     <div class="row pt-5">
       <div class="col-lg-3 col-md-3 col-xl-3">
-        <h5>LEARN MORE</h5>
+        <h5>PORTFOLIO</h5>
         <ul class="footer-link">
           <li><a href="{{ url('/services') }}">Services</a></li>
           <li><a href="/about#clients/">Clients</a></li>

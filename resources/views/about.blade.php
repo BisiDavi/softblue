@@ -101,7 +101,7 @@
                 </div>
               </div>
             </section>
-            <section class="vc-section container-fluid p-5">
+            <section class="vc-section container-fluid px-5 pt-3 pb-0 mb-0">
               <div class="row px-3">
                 <div class="col-lg-6 d-flex flex-column">
                   <h1 class="my-2 jumbo-text">VISIBILITY AND CONTROL</h1>
@@ -122,10 +122,10 @@
                 </div>
               </div>
             </section>
-            <section class="staff-images container-fluid h-50 py-5 bg-dark">
+            {{-- <section class="staff-images container-fluid h-50 py-5 bg-dark">
               <h1 class="text-center py-5 text-white">Staff images</h1>
-            </section>
-            <section class="talent-colony container-fluid bg-white mb-5 py-5 ease-translate">
+            </section> --}}
+            <section class="talent-colony container-fluid bg-white mb-0 pt-3 ease-translate">
               <div class="row colony">
                 <div class="container talent-container">
                   <div class="col-lg-12 col-xl-12 p-5 talents">
@@ -151,12 +151,12 @@
                     <i class="circle circle-pink circle-xs" style="transform: translateX(0px)"></i>
                     <i class="circle circle-blue circle-xs" style="transform: translateX(0px)"></i>
                     <i class="circle circle-dark circle-sm" style="transform: translateX(0px)"></i>
-                    <img src="https://via.placeholder.com/100" style="transform: translateX(0px)" />
-                    <img src="https://via.placeholder.com/150" style="transform: translateX(0px)" />
-                    <img src="https://via.placeholder.com/130" style="transform: translateX(0px)" />
-                    <img src="https://via.placeholder.com/85" style="transform: translateX(0px)" />
-                    <img src="https://via.placeholder.com/100" style="transform: translateX(0px)" />
-                    <img src="https://via.placeholder.com/180" style="transform: translateX(0px)" />
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01GDL750JC-e9d1a6cecc75-512" style="transform: translateX(0px)" />
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01CV26JA8L-e9ce0fd960e0-72" style="transform: translateX(0px)" />
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-UMTBG9U14-f87deb0c3ce8-512" style="transform: translateX(0px)" />
+                    {{-- <img src="https://via.placeholder.com/85" style="transform: translateX(0px)" /> --}}
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01K13Y3293-2235b0d32dbc-512" style="transform: translateX(0px)" />
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01D1BCP3FB-97a80c5e2375-512" style="transform: translateX(0px)" />
                     </div>
                   </div>
                 </div>
@@ -171,63 +171,54 @@
                     <a class="linkedin" href="#linkedin">
                       <i class="fab fa-linkedin"></i>
                     </a>
-                    <img src="https://via.placeholder.com/150" alt="team member" class="rounded-circle" />
-                    <h3 class="member-name">Jane Joe</h3>
-                    <p class="job-title">Founder</p>
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-UMTBG9U14-f87deb0c3ce8-512" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Samuel</h3>
+                    <p class="job-title">CEO</p>
                     <span class="divider divider-pink"></span>
                   </div>
                   <div class="col-lg-3 member d-flex flex-column">
                     <a class="linkedin" href="#linkedin">
                       <i class="fab fa-linkedin"></i>
                     </a>
-                    <img src="https://via.placeholder.com/150" alt="team member" class="rounded-circle" />
-                    <h3 class="member-name">Jane Joe</h3>
-                    <p class="job-title">Founder</p>
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01D1BCP3FB-97a80c5e2375-512" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Oluwafunmilade Akande</h3>
+                    <p class="job-title">Project Manager</p>
                     <span class="divider divider-pink"></span>
                   </div>
                   <div class="col-lg-3 member d-flex flex-column">
                     <a class="linkedin" href="#linkedin">
                       <i class="fab fa-linkedin"></i>
                     </a>
-                    <img src="https://via.placeholder.com/150" alt="team member" class="rounded-circle" />
-                    <h3 class="member-name">Jane Joe</h3>
-                    <p class="job-title">Founder</p>
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01K13Y3293-2235b0d32dbc-512" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Ajiboye Adedotun</h3>
+                    <p class="job-title">Software Engineer</p>
                     <span class="divider divider-pink"></span>
                   </div>
                   <div class="col-lg-3 member d-flex flex-column">
                     <a class="linkedin" href="#linkedin">
                       <i class="fab fa-linkedin"></i>
                     </a>
-                    <img src="https://via.placeholder.com/150" alt="team member" class="rounded-circle" />
-                    <h3 class="member-name">Jane Joe</h3>
-                    <p class="job-title">Founder</p>
+                    <img src="https://ca.slack-edge.com/TMDN8LQJW-U01CV26JA8L-e9ce0fd960e0-72" alt="team member" class="rounded-circle" />
+                    <h3 class="member-name">Olubisi David</h3>
+                    <p class="job-title">Software Engineer</p>
                     <span class="divider divider-pink"></span>
                   </div>
                 </div>
               </div>
-              <div class="staff-gallery row mt-5">
+              {{-- <div class="staff-gallery row mt-5">
                 <div>
                   <img src="https://via.placeholder.com/400" alt="softblue staff image" />
                   <img src="https://via.placeholder.com/400" alt="softblue staff image" />
                 </div>
                 <img src="https://via.placeholder.com/800" alt="softblue staff image" />
-              </div>
+              </div> --}}
             </div>
           </div>
           <div class="tab-pane" id="clients" role="tabpanel" aria-labelledby="clients-tab">
             <div class="our-clients">
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
-              <img src="https://via.placeholder.com/100" alt="softblue clients" class="rounded-circle" />
+              <img src="{{ asset('/images/interswitch.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/venturegarden.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/upwork.png') }}" alt="softblue clients"  />
             </div>
           </div>
         </div>

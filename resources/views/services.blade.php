@@ -38,6 +38,24 @@
   <main class="row bg-white servicepage-main">
     <section class="engineeringteam container-fluid px-5">
       <div class="row py-1">
+        <div class="col-lg-6 d-flex flex-column hidden">
+          <div class="animation">
+            <img src={{ asset('images/financialsystems.svg') }} />
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex flex-column">
+          <h1 class="jumbo-text my-2">
+            IT CONSULTANCY
+          </h1>
+          <div class="divider divider-pink my-2"></div>
+          <p class="my-2">
+            With IT consulting services, you revamp your IT environment to make it go in hand with your business needs. We offer consultancy on holistic, fast, and cost-effective optimization of IT systems and processes to ensure tangible business outcomes.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="engineeringteam container-fluid px-5">
+      <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column">
           <h1 class="jumbo-text my-2">
             FINANCIAL AND TRADING SYSTEMS
