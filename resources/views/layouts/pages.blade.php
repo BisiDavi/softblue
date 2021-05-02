@@ -21,7 +21,7 @@
 
   </script>
   <title>Softblue | @yield('title')</title>
-
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="{{ asset('css/index.css') }}" />
   <link rel="stylesheet" href="{{ asset('css/index.mediaquery.css') }}" />
   @yield('cssLink')
