@@ -314,9 +314,12 @@ nav .navbar-brand img {
     height: 50px;
 }
 
-nav .navbar-brand a {
-    height: 80px;
+nav a.navbar-brand {
+    height: 70px;
     width: 200px;
+    background-image: url(/images/softblue_logo.png);
+    background-size: cover;
+    margin-top: 30px;
 }
 
 nav.navbar.navbar-expand-lg.position-relative {
@@ -600,16 +603,16 @@ footer h5 {
 }
 
 .footer-link li {
-    margin: 10px 0px !important;
+    margin: 10px 0px;
 }
 
 footer img.footerlogo {
-    width: 200px !important;
-    height: 70px !important;
+    width: 200px;
+    height: 70px;
 }
 
 footer form button.btn {
-    height: 45px !important;
+    height: 45px;
     padding: 10px 20px;
 }
 

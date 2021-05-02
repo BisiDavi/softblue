@@ -37,7 +37,7 @@
             <header class="container-fluid">
               <nav class="navbar navbar-expand-lg">
                 <a href="{{ url('/') }}" class="navbar-brand">
-                  <img src="{{ asset('images/softblue_logo.png') }}" class="site-logo" alt="site-logo" />
+                  {{-- <img src="{{ asset('images/softblue_logo.png') }}" class="site-logo" alt="site-logo" /> --}}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                   aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
