@@ -60,10 +60,10 @@
               </ul>
             </div>
             @endif
-            @if($message = Session::get('success'))
+            @if($fullName = Session::get('success'))
             <div class="alert alert-success alert-block">
               <buton class="close" data-dismiss="alert" type="button">x</buton>
-              <strong>{{  message }}</strong>
+              <strong>Thanks {{  fullName }}, for reaching you.</strong>
             </div>
             @endif
             <form method="post" class="contact-form d-flex flex-column mx-auto" action="{{ url('contact/send') }}">
