@@ -714,7 +714,10 @@ div#menuTab ul li a {
 }
 
 #company button.btn {
-    width: 220px !important;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 /* talent colony */
 #company .talent-colony .divider,
@@ -813,9 +816,7 @@ div#menuTab ul li a {
         right: 0px;
     }
 }
-section.talent-colony {
-    border: 1px solid gray;
-}
+
 .talent-colony p {
     font-size: 18px !important;
     line-height: 2;
@@ -875,7 +876,7 @@ section.about-us.hire-us {
     width: 100% !important;
     height: 400px;
     background: url("/images/buildWithUs.svg"),
-        linear-gradient(110deg, #27e1f4, #d51571);
+        linear-gradient(110deg, #27e1f4, #1a5696);
     background-size: auto, auto;
     color: white;
     background-size: cover;
@@ -884,13 +885,7 @@ section.about-us.hire-us {
 }
 
 section.about-us.hire-us .row {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+    padding: 0px 40px;
 }
 .about-us.hire-us .btn-white {
     width: 220px;
@@ -903,7 +898,6 @@ section.about-us.hire-us .row {
 }
 
 .hire-us.about-us .text-content {
-    padding: 60px 0px;
     justify-content: center;
 }
 

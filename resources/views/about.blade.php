@@ -76,9 +76,9 @@
             <section class="milestone-section container-fluid">
               <div class="container-fluid px-5">
                 <div class="row">
-                  <div class="col-lg-6 col-sm-12">
+                  <div class="col-lg-6 col-sm-12 hideme">
                     <div class="milestone-chart-animation">
-                      <img src={{ asset('images/tracker.jpg') }} />
+                      <img src={{ asset('images/tracker.png') }} />
                     </div>
                   </div>
                   <div class="col-lg-6 col-sm-12 d-flex flex-column mt-4 pt-4 text-row">
@@ -135,7 +135,7 @@
                       </h1>
                       <span class="divider divider-pink mx-auto"></span>
                       <p class="text-center my-2">
-                        At Softblue, We are a cast of passion driven Software Engineers,Project Manager, Data Scientists,
+                        At Softblue, We are a caste of passion driven Software Engineers,Project Manager, Data Scientists,
                         Designers, Strategists,with a blazing interest in innovation and excellence. At Softblue, we vets
                         talent using one of the most stringent assessment
                         methodologies in the industry to ensure that our
@@ -165,7 +165,7 @@
           <div class="tab-pane" id="ourteam" role="tabpanel" aria-labelledby="team-tab">
             <div class="ourteams team-members container-fluid">
               <div class="container">
-                <div class="row py-5 team-mate">
+                <div class="row team-mate">
                   <div class="col-lg-3 member d-flex flex-column">
                     <a class="linkedin" href="#linkedin">
                       <i class="fab fa-linkedin"></i>
@@ -241,14 +241,7 @@
                 </div>
                
               </div>
-
-              {{-- <div class="staff-gallery row mt-5">
-                <div>
-                  <img src="https://via.placeholder.com/400" alt="softblue staff image" />
-                  <img src="https://via.placeholder.com/400" alt="softblue staff image" />
-                </div>
-                <img src="https://via.placeholder.com/800" alt="softblue staff image" />
-              </div> --}}
+              
             </div>
           </div>
           <div class="tab-pane" id="clients" role="tabpanel" aria-labelledby="clients-tab">
@@ -261,7 +254,7 @@
               <img src="{{ asset('/images/paycheap.png') }}" alt="softblue clients"  />
               <img src="{{ asset('/images/lagosState.png') }}" alt="softblue clients"  />
               <img src="{{ asset('/images/borrowMoney.png') }}" alt="softblue clients"  />
-              <img src="{{ asset('/images/lendingtree.png') }}" alt="softblue clients"  />
+              <img src="{{ asset('/images/lendingtree.jpg') }}" alt="softblue clients"  />
               <img src="{{ asset('/images/acorns.png') }}" alt="softblue clients"  />
             </div>
           </div>

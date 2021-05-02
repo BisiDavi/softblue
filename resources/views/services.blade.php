@@ -36,7 +36,7 @@
 
 @section('content')
   <main class="row bg-white servicepage-main">
-    <section class="engineeringteam container-fluid px-5">
+    <section class="engineeringteam container-fluid px-lg-5 px-sm-4">
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
@@ -44,24 +44,24 @@
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
-          <h1 class="jumbo-text my-2">
+          <h1 class="jumbo-text my-1">
             IT CONSULTANCY
           </h1>
-          <div class="divider divider-pink my-2"></div>
-          <p class="my-2">
+          <div class="divider divider-pink my-1"></div>
+          <p class="my-1">
             With IT consulting services, you revamp your IT environment to make it go in hand with your business needs. We offer consultancy on holistic, fast, and cost-effective optimization of IT systems and processes to ensure tangible business outcomes.
           </p>
         </div>
       </div>
     </section>
-    <section class="engineeringteam container-fluid px-5">
+    <section class="engineeringteam container-fluid px-lg-5 px-sm-4">
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column">
-          <h1 class="jumbo-text my-2">
+          <h1 class="jumbo-text my-1">
             FINANCIAL AND TRADING SYSTEMS
           </h1>
-          <div class="divider divider-pink my-2"></div>
-          <p class="my-2">
+          <div class="divider divider-pink my-1"></div>
+          <p class="my-1">
             Software solutions for financial institutions: loan applications, payment processing software, trading
             platforms etc
           </p>
@@ -73,7 +73,7 @@
         </div>
       </div>
     </section>
-    <section class="applicationdevelopment container-fluid px-5">
+    <section class="applicationdevelopment container-fluid px-lg-5 px-sm-4">
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
@@ -81,23 +81,23 @@
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
-          <h1 class="jumbo-text my-2">
+          <h1 class="jumbo-text my-1">
             WEB/MOBILE APPLICATION DEVELOPMENT</h1>
-          <div class="divider divider-pink my-2"></div>
-          <p class="my-2">
+          <div class="divider divider-pink my-1"></div>
+          <p class="my-1">
             Development of Web/Mobile Applications to meet clients’ unique needs:
             Web-Apps, Android and iOS mobile applications
           </p>
         </div>
       </div>
     </section>
-    <section class="analytics container-fluid px-5">
+    <section class="analytics container-fluid px-lg-5 px-sm-4">
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column">
-          <h1 class="jumbo-text my-2">
+          <h1 class="jumbo-text my-1">
             TELECOMMUNICATION SYSTEMS</h1>
-          <div class="divider divider-pink my-2"></div>
-          <p class="my-2">
+          <div class="divider divider-pink my-1"></div>
+          <p class="my-1">
             Development of custom software solutions for telecommunication services
           </p>
         </div>
@@ -108,7 +108,7 @@
         </div>
       </div>
     </section>
-    <section class="machinelearning container-fluid px-5">
+    <section class="machinelearning container-fluid px-lg-5 px-sm-4">
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
@@ -116,22 +116,22 @@
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
-          <h1 class="jumbo-text my-2">
+          <h1 class="jumbo-text my-1">
             CLIENT SERVER APPLICATIONS</h1>
-          <div class="divider divider-pink my-2"></div>
-          <p class="my-2">
+          <div class="divider divider-pink my-1"></div>
+          <p class="my-1">
             Development and deployment of client/server applications
           </p>
         </div>
       </div>
     </section>
-    <section class="enterpriseapplication container-fluid px-5">
+    <section class="enterpriseapplication container-fluid px-lg-5 px-sm-4">
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column">
-          <h1 class="jumbo-text my-2">
+          <h1 class="jumbo-text my-1">
             E-COMMERCE (B2B/B2C) SYSTEMS</h1>
-          <div class="divider divider-pink my-2"></div>
-          <p class="my-2">
+          <div class="divider divider-pink my-1"></div>
+          <p class="my-1">
             Development of e-commerce software for B2B and B2C purposes
           </p>
         </div>
@@ -142,7 +142,7 @@
         </div>
       </div>
     </section>
-    <section class="enterpriseapplication container-fluid px-5">
+    <section class="enterpriseapplication container-fluid px-lg-5 px-sm-4">
       <div class="row py-1">
         <div class="col-lg-6 d-flex flex-column hidden">
           <div class="animation">
@@ -150,10 +150,10 @@
           </div>
         </div>
         <div class="col-lg-6 d-flex flex-column">
-          <h1 class="jumbo-text my-2">
+          <h1 class="jumbo-text my-1">
             ENTERPRISE APPLICATION INTEGRATIONS</h1>
-          <div class="divider divider-pink my-2"></div>
-          <p class="my-2">
+          <div class="divider divider-pink my-1"></div>
+          <p class="my-1">
             Integration of enterprise applications in an organisation to simplify and automate business processes
           </p>
         </div>

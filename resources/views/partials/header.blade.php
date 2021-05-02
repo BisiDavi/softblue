@@ -42,11 +42,6 @@
             <header class="container">
               <nav class="navbar navbar-expand-lg">
                 <a href="/index.html" class="navbar-brand">
-                  <img
-                    src="./images/softblue_logo_white.png"
-                    class="site-logo"
-                    alt="site-logo"
-                  />
                 </a>
                 <button
                   class="navbar-toggler"

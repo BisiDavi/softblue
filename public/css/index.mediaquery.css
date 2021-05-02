@@ -494,4 +494,16 @@
     #hamburgerMenu i {
         background: white;
     }
+
+    .build-content .text-content h1,
+    .ourservices h1 {
+        font-size: 25px;
+    }
+    .sponsorsbrand .brand-content span.brand-logos {
+        justify-content: unset;
+    }
+
+    header.container-fluid.about {
+        padding: 0px 20px;
+    }
 }

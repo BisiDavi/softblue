@@ -83,19 +83,25 @@ span.animationsvg.contact-page {
     div#particles-js,
     .mainbanner {
         background: black;
+        height: 600px;
     }
     .contactpage .hero-jumbotron .hero-text p {
         color: white;
-        font-size: 3vw;
+        font-size: 20px;
+        line-height: 2;
     }
     .contact-form p.text-center {
-        width: 75% !important;
+        width: 100%;
+        padding: 0px 20px;
+        font-size: 16px;
     }
 }
 
 @media (max-width: 425px) {
     .contact-form p {
-        width: 75% !important;
+        width: 100%;
+        padding: 0px 20px;
+        font-size: 16px;
     }
     .hero-text h1 {
         font-size: 11vw;
@@ -103,6 +109,9 @@ span.animationsvg.contact-page {
     .contactpage .hero-jumbotron .hero-text p {
         font-size: 5vw;
         line-height: 26px;
+    }
+    section.hire-us.about-us .text-content p {
+        font-size: 20px;
     }
     .input-group,
     .contact-form input {
@@ -133,7 +142,7 @@ span.animationsvg.contact-page {
         height: 100%;
     }
     section.hire-us.about-us {
-        height: 60vw;
+        height: 280px;
     }
     section.hire-us h1 {
         font-size: 8vw;

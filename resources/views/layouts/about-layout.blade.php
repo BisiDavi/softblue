@@ -33,10 +33,9 @@
       <div class="container-fluid" id="particles-js"></div>
       <section class="container-fluid hero">
         <div class="hero-content position-relative">
-          <header class="container-fluid">
-            <nav class="navbar navbar-expand-lg">
+          <header class="container-fluid about">
+            <nav class="navbar navbar-expand-lg about">
               <a href="{{ url('/') }}" class="navbar-brand">
-                <img src="{{ asset('images/softblue_logo_white.png') }}" class="site-logo" alt="site-logo" />
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

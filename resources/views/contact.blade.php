@@ -160,7 +160,7 @@
       </section>
       <section class="hire-us about-us container-fluid px-0">
         <div class="row py-5">
-          <div class="text-content mx-auto d-flex flex-column w-50 col-lg-6">
+          <div class="text-content mx-auto d-flex flex-column col-lg-6">
             <p class="my-3">
               Let’s help you build the software solution you need to scale your
               business

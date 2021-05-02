@@ -1,11 +1,25 @@
 .mainbanner {
     background-color: black;
 }
+
 @media (max-width: 768px) {
     main.row.bg-white {
         width: 100%;
     }
-
+    section.milestone-section.container-fluid p {
+        color: white;
+    }
+    .tab-content p {
+        color: #292b2c;
+        line-height: 2;
+        font-size: 16px;
+    }
+    .about-page .talents .text-content p {
+        color: #292b2c;
+        font-size: 16px;
+        line-height: 2;
+        text-align: left !;
+    }
     .mainbanner #particles-js {
         height: 530px;
     }
@@ -117,7 +131,7 @@
 
     .hero-content .about-page p {
         margin-top: 70px;
-        font-size: 4vw;
+        font-size: 18px;
         line-height: 26px;
     }
 
@@ -140,7 +154,7 @@
     }
 
     .hire-us.about-us .text-content p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .about-us.hire-us .btn-white {
@@ -176,6 +190,9 @@
         font-size: 5vw;
         width: 100%;
     }
+    .about-page .row h1 {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -191,10 +208,24 @@
     div#menuNav a {
         margin-top: 10px;
     }
+    .team-mate {
+        padding: 20px 0px;
+    }
 }
 
 @media (max-width: 425px) {
     #myTab li.nav-item a.active::before {
         width: 100px;
+    }
+    .hideme {
+        display: none;
+    }
+    .about-page .row h1 {
+        font-size: 25px;
+    }
+    .about-page .talents .text-content p {
+        color: #292b2c;
+        font-size: 16px;
+        line-height: 2;
     }
 }
