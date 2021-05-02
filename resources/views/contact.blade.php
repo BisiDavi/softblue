@@ -38,9 +38,9 @@
   <main class="row bg-white">
       <section class="contact-form container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 my-3">
             <h1 class="jumbo-text text-center">CONTACT US</h1>
-            <p class="text-center mb-2 w-50 mx-auto d-flex">
+            <p class="text-center mb-2 mx-auto d-flex">
               Thank you for your interest in SoftBlue Nigeria. We will be glad
               to answer all your questions as well as estimate any project of
               yours.
@@ -50,28 +50,53 @@
               specialists and we will get back to you shortly.
             </p>
 
-            <form class="contact-form d-flex flex-column mx-auto">
+            @if(count($errors) > 0)
+            <div class="alert alert-danger">
+              <button class="close" type="button" data-dismiss="alert">x</button>
+              <ul>
+                @foreach ($errors -> all() as $error)
+                  <li>{{ $error }}</li>
+                @endforeach
+              </ul>
+            </div>
+            @endif
+            @if($message = Session::get('success'))
+            <div class="alert alert-success alert-block">
+              <buton class="close" data-dismiss="alert" type="button">x</buton>
+              <strong>{{  message }}</strong>
+            </div>
+            @endif
+            <form method="post" class="contact-form d-flex flex-column mx-auto" action="{{ url('contact/send') }}">
+              {{ csrf_field() }}
               <div id="formOne" class="form-one col-lg-12">
                 <input
                   type="text"
+                  name="fullName"
+                  value=""
                   placeholder="Full Name*"
                   class="form-control form-control-lg"
                   required
                 />
                 <input
                   type="text"
+                  name="phone"
+                  value=""
                   placeholder="Phone*"
                   class="form-control form-control-lg"
                   required
                 />
                 <input
                   type="email"
+                  name="email"
+                  value=""
                   placeholder="Email*"
                   class="form-control form-control-lg"
                   required
                 />
                 <input
                   type="text"
+                  value=""
+                  name="company"
                   placeholder="Company name*"
                   id="company"
                   class="form-control form-control-lg mx-auto w-50"
@@ -79,6 +104,8 @@
                 />
                 <input
                   type="text"
+                  name="country"
+                  value=""
                   placeholder="Country*"
                   id="country"
                   class="form-control form-control-lg"
@@ -88,6 +115,8 @@
                   <select
                     class="custom-select form-control form-control-lg"
                     id="services"
+                    value=""
+                    name="services"
                     required
                   >
                     <option class="selected" selected>Services Required.</option>
@@ -113,6 +142,8 @@
                   <div class="custom-file file">
                     <input
                       type="file"
+                      name="uploadFile"
+                      value=""
                       class="custom-file-input form-control form-control-lg"
                       placeholder="Upload file"
                       id="uploadfile"
@@ -134,6 +165,8 @@
                   <select
                     class="custom-select form-control form-control-lg"
                     id="services"
+                    name="hearAboutUs"
+                    value=""
                     required
                   >
                     <option selected>How did you hear about us?</option>
@@ -145,13 +178,14 @@
                 </div>
                 <textarea
                   class="form-control"
+                  name="projectDescription"
                   placeholder="Project Description (max of 5000 characters)*"
                   id="projectDescription"
                   rows="10"
                   required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-dark mx-auto d-flex my-5">
+              <button type="submit" name="send" value="Submit" class="btn btn-dark mx-auto d-flex my-5">
                 Submit
               </button>
             </form>
